@@ -163,6 +163,10 @@ margin-right: -17%;
         cursor: pointer;
         background-color: hsl(235, 18%, 26%);
     }
+    .card_2btn{
+    background-color: hsl(4, 100%, 67%);
+    transition: all 1s;
+    }
   
     @media  (max-width:1300px) {
         .wrapper{

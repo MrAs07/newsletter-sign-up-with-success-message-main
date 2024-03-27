@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+<body>
+    <div class="wrapper">
+        <section class="section1">
+            <div class="heading">Stay updated!</div>
+            <div class="content">Join 60,000+ product managers receiving monthly updates on:</div>
+            <div class="list_elements">
+                <li><img src="./images/icon-list.svg" class="list_image"> Product discovery and building what matters</li>
+                <li><img src="./images/icon-list.svg" class="list_image"> Measuring to ensure updates are a success</li>
+                <li><img src="./images/icon-list.svg" class="list_image"> And much more!</li>
+            </div>
+            <div class="email">
+                <form  class="mail_form">
+                  <div class="email-content"><label for="mail">Email address</label>
+                <p class="error hide">Error</p> </div>  
+                    
+                    <input type="email" name="mail" id="email_id" class="mailid">
+                    <input type="submit" value="Subscribe to monthly newsletter" class="form_button">
+                </form>
+            </div>
+        </section>
+        <section class="section2">
+            <img src="./images/illustration-sign-up-desktop.svg" alt="" srcset="" class="main-image">
+            <img src="./images/illustration-sign-up-mobile.svg" alt="" srcset="" class="main-image1">
+        </section>
+    </div>
+
+
+      <!-- Sign-up form end -->
+
+    <!-- Success message start -->
+    <div class="card-2 hide">
+        <img src="./images/icon-success.svg" class="icon-card-2" />
+        <h1>Thanks for subscribing!</h1>
+        <p>
+          A confirmation email has been sent to <span id="user_mail">ash@loremcompany.com</span> . Please open
+          it and click the button inside to confirm your subscription.
+        </p>
+        <button class="card_2btn">Dismiss message</button>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
